@@ -1,0 +1,32 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 4927ecc62bd44fb0b5f67d9eb4857b08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InsMemory
+Compiling module xil_defaultlib.PipelinedRegister_File(WIDTH=64)
+Compiling module xil_defaultlib.Decoder
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.Reg_file
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.mux(WIDTH=8)
+Compiling module xil_defaultlib.PipelinedRegister_File(WIDTH=155...
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.MUX_3x1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchingUnit
+Compiling module xil_defaultlib.PipelinedRegister_File(WIDTH=110...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.PipelinedRegister_File(WIDTH=71)
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_tb_behav

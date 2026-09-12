@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../S-type data path.srcs/sources_1/new/dataMem.sv" \
+"../../../../S-type data path.srcs/sim_1/new/datamem_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/ALU.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/BranchingUnit.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/Decoder.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/ForwardingUnit.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/HazardDetectionUnit.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/ImmGen.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/InsMemory.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/MUX_3x1.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/PC.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/PipelinedRegister_File.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/Reg_file.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/Top.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/alucontrol.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/control_unit.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/dataMem.sv" \
+"../../../../HazardFreeProcessor.srcs/sources_1/new/mux2X1.sv" \
+"../../../../HazardFreeProcessor.srcs/sim_1/new/top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
